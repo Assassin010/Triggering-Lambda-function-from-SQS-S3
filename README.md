@@ -23,7 +23,7 @@ Triggering Lambda function from SQS and store the message in S3 bucket with Terr
 
 To check if the code works
 
-1.	Navigate to the SQS queue, click on the SEND AND RECEIVE MESSAGES button on the top right side.
+1.	On AWS Console navigate to the SQS queue, click on the SEND AND RECEIVE MESSAGES button on the top right side.
 2.	Under Send message:
 •	Message body : Enter {"Name" : "Paul", "Course" : "Amazon Web Services", "Cost" : "$20"}
 3.	Now click on the SEND MESSAGE button.
