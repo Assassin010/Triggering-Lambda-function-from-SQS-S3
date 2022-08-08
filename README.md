@@ -8,7 +8,7 @@ Code editor (Vscode, Atom, etc), Setup Terraform on your local machine, Setup Te
 Clone the code to your code editor with git clone command
 git clone https://github.com/Assassin010/Triggering-Lambda-function-from-SQS-S3
 
-Deployment Steps: Use these commands below
+Deployment Steps: In your terminal Run these commands below (-)
 
 -Terraform init
 
