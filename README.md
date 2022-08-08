@@ -1,17 +1,23 @@
 # Triggering Lambda function from SQS and store the message in S3 bucket with Terraform(IAC)
 
+
 Clone the code to your code editor with git clone command
+git clone https://github.com/Assassin010/Triggering-Lambda-function-from-SQS-S3
 
 Deployment Steps:
 
 -Terraform init
-initialize a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
+
+Initialize a working directory containing Terraform configuration files. This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
 
 -Terraform plan
+
 The terraform plan command lets you to preview the actions Terraform would take to modify your infrastructure, or save a speculative plan which you can apply later.
+
 
 -Terraform apply-auto-approve 
 To deploy the infra
+
 
 -Terraform destroy-auto-approve
 To destroy the infra
