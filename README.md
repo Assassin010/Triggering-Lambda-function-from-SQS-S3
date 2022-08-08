@@ -19,9 +19,6 @@ The terraform plan command lets you to preview the actions Terraform would take 
 To deploy the infra
 
 
--Terraform destroy-auto-approve
-To destroy the infra
-
 
 Triggering Lambda function from SQS and store the message in S3 bucket with Terraform(IAC)
 
@@ -42,5 +39,11 @@ To check if the code works
 7.	Select the object and then click on OPEN  button. The s3 object will be downloaded to your local machine.
 8.	Now open the file and you will be able to see the message that you have passed to SQS.
            
+           
+           
+           -To destroy the resources use the command: Terraform destroy-auto-approve
+
+           
+          
 
  
